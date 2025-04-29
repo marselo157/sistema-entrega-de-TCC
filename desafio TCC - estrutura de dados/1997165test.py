@@ -2,6 +2,7 @@ alunos = []
 orientadores = {}
 
 def cadastrar_orientador():
+    
     nome = input("Digite o nome do orientador: ")
     if nome not in orientadores:
         orientadores[nome] = []
@@ -181,7 +182,7 @@ def main():
             case "q" | "Q":
                 break
             case _:
-                print("Opção inválida.")
+                print("''Opção inválida.''")
 
 if __name__ == "__main__":
     main()
